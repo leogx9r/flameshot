@@ -21,6 +21,7 @@
 #include <locale>
 #include <QStandardPaths>
 #include <QDir>
+#include <QUuid>
 
 FileNameHandler::FileNameHandler(QObject *parent) : QObject(parent) {
     std::locale::global(std::locale(""));
@@ -46,6 +47,9 @@ QString FileNameHandler::parseFilename(const QString &name) {
 
     // add the parsed pattern in a correct format for the filesystem
     res = res.replace(QLatin1String("/"), QStringLiteral("⁄")).replace(QLatin1String(":"), QLatin1String("-"));
+
+    // add random uuid if required
+    res = res.replace(QLatin1String("%U"), QUuid::createUuid().toString(QUuid::WithoutBraces));
     return res;
 }
 

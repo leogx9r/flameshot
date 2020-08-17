@@ -92,7 +92,7 @@ private slots:
     void handleButtonSignal(CaptureTool::Request r);
     void setDrawColor(const QColor &c);
     void setDrawThickness(const int &t);
-
+    void incrementCircleCount();
 protected:
     void paintEvent(QPaintEvent *);
     void mousePressEvent(QMouseEvent *);
@@ -114,6 +114,7 @@ protected:
 
     // Outside selection opacity
     int m_opacity;
+
     // utility flags
     bool m_mouseIsClicked;
     bool m_rightClick;
@@ -123,6 +124,8 @@ protected:
     bool m_captureDone;
     bool m_previewEnabled;
     bool m_adjustmentButtonPressed;
+
+
 
 private:
     void initContext(const QString &savePath, bool fullscreen);

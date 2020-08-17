@@ -124,6 +124,29 @@ void ConfigHandler::setSavePath(const QString &savePath) {
     m_settings.setValue(QStringLiteral("savePath"), savePath);
 }
 
+QUrl ConfigHandler::uploadUrlValue() {
+    QUrl res = QUrl(QStringLiteral("https://api.imgur.com/3/image"));
+    if (m_settings.contains(QStringLiteral("uploadUrl"))) {
+        QUrl url(m_settings.value(QStringLiteral("uploadUrl")).toString());
+
+        if (url.isValid() &&
+            (url.scheme() == QLatin1String("http") || url.scheme() == QLatin1String("https"))) {
+            res = url;
+        } else {
+            m_settings.remove(QStringLiteral("uploadUrl"));
+        }
+    }
+    return res;
+}
+
+void ConfigHandler::setUploadUrl(const QString &uploadUrl) {
+    m_settings.setValue(QStringLiteral("uploadUrl"), uploadUrl);
+}
+
+bool ConfigHandler::isCustomHosting() {
+    return m_settings.contains(QStringLiteral("uploadUrl"));
+}
+
 QColor ConfigHandler::uiMainColorValue() {
     QColor res = QColor(116, 0, 150);
 

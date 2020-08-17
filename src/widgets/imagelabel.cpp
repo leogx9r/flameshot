@@ -43,6 +43,11 @@ void ImageLabel::setScreenshot(const QPixmap &pixmap) {
     setScaledPixmap();
 }
 
+QPixmap ImageLabel::getScreenshot()
+{
+    return m_pixmap;
+}
+
 void ImageLabel::setScaledPixmap() {
     const qreal scale = qApp->devicePixelRatio();
     // divide it by scale so image would be normalized to screen
@@ -80,6 +85,10 @@ void ImageLabel::mouseMoveEvent(QMouseEvent *event) {
     }
     setCursor(Qt::OpenHandCursor);
     emit dragInitiated();
+}
+
+void ImageLabel::mouseDoubleClickEvent(QMouseEvent *event) {
+    emit historyEdit();
 }
 
 // resize handler

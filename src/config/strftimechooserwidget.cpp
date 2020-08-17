@@ -65,4 +65,5 @@ QMap<QString, QString> StrftimeChooserWidget::m_buttonData {
     { QT_TR_NOOP("Second (00-59)"),         "%S"},
     { QT_TR_NOOP("Full Date (%m/%d/%y)"),   "%D"},
     { QT_TR_NOOP("Full Date (%Y-%m-%d)"),   "%F"},
+    { QT_TR_NOOP("Random UUID (%%U)"),     "%%U"},
 };

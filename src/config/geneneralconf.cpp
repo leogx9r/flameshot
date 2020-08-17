@@ -33,6 +33,7 @@ GeneneralConf::GeneneralConf(QWidget *parent) : QWidget(parent) {
     m_layout = new QVBoxLayout(this);
     m_layout->setAlignment(Qt::AlignTop);
     initShowHelp();
+    initShowSidePanelButton();
     initShowDesktopNotification();
     initShowTrayIcon();
     initAutostart();
@@ -48,6 +49,7 @@ GeneneralConf::GeneneralConf(QWidget *parent) : QWidget(parent) {
 void GeneneralConf::updateComponents() {
     ConfigHandler config;
     m_helpMessage->setChecked(config.showHelpValue());
+    m_sidePanelButton->setChecked(config.showSidePanelButtonValue());
     m_sysNotifications->setChecked(config.desktopNotificationValue());
     m_autostart->setChecked(config.startupLaunchValue());
     m_closeAfterCapture->setChecked(config.closeAfterScreenshotValue());
@@ -60,6 +62,10 @@ void GeneneralConf::updateComponents() {
 
 void GeneneralConf::showHelpChanged(bool checked) {
     ConfigHandler().setShowHelp(checked);
+}
+
+void GeneneralConf::showSidePanelButtonChanged(bool checked) {
+    ConfigHandler().setShowSidePanelButton(checked);
 }
 
 void GeneneralConf::showDesktopNotificationChanged(bool checked) {
@@ -148,6 +154,16 @@ void GeneneralConf::initShowHelp() {
 
     connect(m_helpMessage, &QCheckBox::clicked, this,
             &GeneneralConf::showHelpChanged);
+}
+
+void GeneneralConf::initShowSidePanelButton() {
+    m_sidePanelButton = new QCheckBox(tr("Show the side panel button"), this);
+    m_sidePanelButton->setChecked(ConfigHandler().showSidePanelButtonValue());
+    m_sidePanelButton->setToolTip(tr("Show the side panel toggle button in the capture mode."));
+    m_layout->addWidget(m_sidePanelButton);
+
+    connect(m_sidePanelButton, &QCheckBox::clicked, this,
+            &GeneneralConf::showSidePanelButtonChanged);
 }
 
 void GeneneralConf::initShowDesktopNotification() {

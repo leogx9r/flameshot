@@ -79,47 +79,83 @@
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="59"/>
         <source>&lt;b&gt;Capture Mode&lt;/b&gt;</source>
+<<<<<<< HEAD
         <translation>&lt;b&gt;捕获模式&lt;/b&gt;</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="64"/>
         <source>Rectangular Region</source>
+<<<<<<< HEAD
         <translation>方形区域</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="65"/>
         <source>Full Screen (All Monitors)</source>
+<<<<<<< HEAD
         <translation>全屏（所有显示器）</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="72"/>
         <source>No Delay</source>
+<<<<<<< HEAD
         <translation>无延迟</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="79"/>
         <source> second</source>
+<<<<<<< HEAD
         <translation> 秒</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="79"/>
         <source> seconds</source>
+<<<<<<< HEAD
         <translation> 秒</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="83"/>
         <source>Take new screenshot</source>
+<<<<<<< HEAD
         <translation>获取新屏幕截图</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="90"/>
         <source>Area:</source>
+<<<<<<< HEAD
         <translation>区域：</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="91"/>
         <source>Delay:</source>
+<<<<<<< HEAD
         <translation>延迟：</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
 </context>
 <context>
@@ -158,6 +194,19 @@ Press Space to open the side panel.</source>
     </message>
 </context>
 <context>
+    <name>ClearTool</name>
+    <message>
+        <location filename="../src/tools/clear/cleartool.cpp" line="34"/>
+        <source>Clear</source>
+        <translation type="unfinished">清空</translation>
+    </message>
+    <message>
+        <location filename="../src/tools/clear/cleartool.cpp" line="42"/>
+        <source>Clear all modifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ConfigWindow</name>
     <message>
         <location filename="../src/config/configwindow.cpp" line="41"/>
@@ -190,7 +239,11 @@ Press Space to open the side panel.</source>
     <message>
         <location filename="../src/core/controller.cpp" line="180"/>
         <source>&amp;Open Launcher</source>
+<<<<<<< HEAD
         <translation>打开启动器(&amp;O)</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/core/controller.cpp" line="183"/>
@@ -385,12 +438,20 @@ Press Space to open the side panel.</source>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="215"/>
         <source>Close after capture</source>
+<<<<<<< HEAD
         <translation>捕获后关闭</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="219"/>
         <source>Close after taking a screenshot</source>
+<<<<<<< HEAD
         <translation>获取屏幕截图后关闭</translation>
+=======
+        <translation type="unfinished"></translation>
+>>>>>>> weishuchang/clear_button
     </message>
 </context>
 <context>
@@ -469,86 +530,96 @@ Press Space to open the side panel.</source>
     </message>
     <message>
         <location filename="../src/widgets/infowindow.cpp" line="63"/>
+        <source>SPACEBAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/widgets/infowindow.cpp" line="64"/>
         <source>Right Click</source>
         <translation>右键</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="64"/>
+        <location filename="../src/widgets/infowindow.cpp" line="65"/>
         <source>Mouse Wheel</source>
         <translation>鼠标滑轮</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="68"/>
+        <location filename="../src/widgets/infowindow.cpp" line="69"/>
         <source>Move selection 1px</source>
         <translation>移动选择 1 px</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="69"/>
+        <location filename="../src/widgets/infowindow.cpp" line="70"/>
         <source>Resize selection 1px</source>
         <translation>调整选择大小 1 px</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="70"/>
+        <location filename="../src/widgets/infowindow.cpp" line="71"/>
         <source>Quit capture</source>
         <translation>退出捕获</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="71"/>
+        <location filename="../src/widgets/infowindow.cpp" line="72"/>
+        <source>Clear all modifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/widgets/infowindow.cpp" line="73"/>
         <source>Copy to clipboard</source>
         <translation>复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="72"/>
+        <location filename="../src/widgets/infowindow.cpp" line="74"/>
         <source>Save selection as a file</source>
         <translation>将选择保存为文件</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="73"/>
+        <location filename="../src/widgets/infowindow.cpp" line="75"/>
         <source>Undo the last modification</source>
         <translation>撤消上次修改</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="74"/>
+        <location filename="../src/widgets/infowindow.cpp" line="76"/>
         <source>Toggle visibility of sidebar with options of the selected tool</source>
         <translation>切换侧边栏可见性</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="75"/>
+        <location filename="../src/widgets/infowindow.cpp" line="77"/>
         <source>Show color picker</source>
         <translation>显示颜色选择器</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="76"/>
+        <location filename="../src/widgets/infowindow.cpp" line="78"/>
         <source>Change the tool&apos;s thickness</source>
         <translation>改变工具的厚度</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="92"/>
+        <location filename="../src/widgets/infowindow.cpp" line="94"/>
         <source>Key</source>
         <translation>键</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="92"/>
+        <location filename="../src/widgets/infowindow.cpp" line="94"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="123"/>
+        <location filename="../src/widgets/infowindow.cpp" line="125"/>
         <source>&lt;u&gt;&lt;b&gt;License&lt;/b&gt;&lt;/u&gt;</source>
         <translation>&lt;u&gt;&lt;b&gt;许可证&lt;/b&gt;&lt;/u&gt;</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="131"/>
+        <location filename="../src/widgets/infowindow.cpp" line="133"/>
         <source>&lt;u&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/u&gt;</source>
         <translation>&lt;u&gt;&lt;b&gt;版本&lt;/b&gt;&lt;/u&gt;</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="141"/>
+        <location filename="../src/widgets/infowindow.cpp" line="143"/>
         <source>&lt;u&gt;&lt;b&gt;Shortcuts&lt;/b&gt;&lt;/u&gt;</source>
         <translation>&lt;u&gt;&lt;b&gt;快捷键&lt;/b&gt;&lt;/u&gt;</translation>
     </message>
     <message>
-        <location filename="../src/widgets/infowindow.cpp" line="81"/>
+        <location filename="../src/widgets/infowindow.cpp" line="83"/>
         <source>Available shortcuts in the screen capture mode.</source>
         <translation>屏幕捕捉模式中的可用快捷键。</translation>
     </message>

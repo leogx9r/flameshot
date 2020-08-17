@@ -23,8 +23,8 @@ init:
 
 # scripts that run after cloning repository
 install:
-    - ps: Start-FileDownload 'https://slproweb.com/download/Win64OpenSSL-1_1_1d.exe'
-    - ps: Start-Process "Win64OpenSSL-1_1_1d.exe" -ArgumentList "/silent /verysilent /sp- /suppressmsgboxes /dir=C:\OpenSSL-Win64" -Wait
+    - ps: Start-FileDownload 'https://slproweb.com/download/Win64OpenSSL-1_1_1g.exe'
+    - ps: Start-Process "Win64OpenSSL-1_1_1g.exe" -ArgumentList "/silent /verysilent /sp- /suppressmsgboxes /dir=C:\OpenSSL-Win64" -Wait
     - set PATH=%QT%\bin\;C:\Qt\Tools\QtCreator\bin\;C:\Qt\QtIFW3.0.1\bin\;%PATH%
 
 # scripts that run before build

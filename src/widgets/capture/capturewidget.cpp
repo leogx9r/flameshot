@@ -169,7 +169,7 @@ CaptureWidget::CaptureWidget(const uint id, const QString &savePath,
         m_context.selection = m_editPixmap.rect();
     }
 
-    initPanel(m_context.widgetDimensions);
+    initPanel();
     // update our selection if we have a editPixmap loaded
     if (!m_editPixmap.isNull()) {
         show();
@@ -623,7 +623,7 @@ void CaptureWidget::initContext(const QString &savePath, bool fullscreen) {
     m_context.fullscreen = fullscreen;
 }
 
-void CaptureWidget::initPanel() {
+void CaptureWidget::initPanel(QRect inputRect) {
     QRect panelRect = rect();
     if (m_context.fullscreen) {
         panelRect = QGuiApplication::primaryScreen()->geometry();

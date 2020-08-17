@@ -169,6 +169,12 @@ CaptureWidget::CaptureWidget(const uint id, const QString &savePath,
         m_context.selection = m_editPixmap.rect();
     }
 
+    // Init color picker
+    m_colorPicker = new ColorPicker(this);
+    connect(m_colorPicker, &ColorPicker::colorSelected,
+            this, &CaptureWidget::setDrawColor);
+    m_colorPicker->hide();
+
     initPanel();
     // update our selection if we have a editPixmap loaded
     if (!m_editPixmap.isNull()) {
@@ -190,12 +196,6 @@ CaptureWidget::CaptureWidget(const uint id, const QString &savePath,
     }
 
     updateCursor();
-
-    // Init color picker
-    m_colorPicker = new ColorPicker(this);
-    connect(m_colorPicker, &ColorPicker::colorSelected,
-            this, &CaptureWidget::setDrawColor);
-    m_colorPicker->hide();
 
     // Init notification widget
     m_notifierBox = new NotifierBox(this);

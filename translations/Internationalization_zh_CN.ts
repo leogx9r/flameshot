@@ -79,83 +79,47 @@
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="59"/>
         <source>&lt;b&gt;Capture Mode&lt;/b&gt;</source>
-<<<<<<< HEAD
         <translation>&lt;b&gt;捕获模式&lt;/b&gt;</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="64"/>
         <source>Rectangular Region</source>
-<<<<<<< HEAD
         <translation>方形区域</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="65"/>
         <source>Full Screen (All Monitors)</source>
-<<<<<<< HEAD
         <translation>全屏（所有显示器）</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="72"/>
         <source>No Delay</source>
-<<<<<<< HEAD
         <translation>无延迟</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="79"/>
         <source> second</source>
-<<<<<<< HEAD
         <translation> 秒</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="79"/>
         <source> seconds</source>
-<<<<<<< HEAD
         <translation> 秒</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="83"/>
         <source>Take new screenshot</source>
-<<<<<<< HEAD
         <translation>获取新屏幕截图</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="90"/>
         <source>Area:</source>
-<<<<<<< HEAD
         <translation>区域：</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/widgets/capturelauncher.cpp" line="91"/>
         <source>Delay:</source>
-<<<<<<< HEAD
         <translation>延迟：</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
 </context>
 <context>
@@ -239,11 +203,7 @@ Press Space to open the side panel.</source>
     <message>
         <location filename="../src/core/controller.cpp" line="180"/>
         <source>&amp;Open Launcher</source>
-<<<<<<< HEAD
         <translation>打开启动器(&amp;O)</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/core/controller.cpp" line="183"/>
@@ -438,20 +398,12 @@ Press Space to open the side panel.</source>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="215"/>
         <source>Close after capture</source>
-<<<<<<< HEAD
         <translation>捕获后关闭</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
     <message>
         <location filename="../src/config/geneneralconf.cpp" line="219"/>
         <source>Close after taking a screenshot</source>
-<<<<<<< HEAD
         <translation>获取屏幕截图后关闭</translation>
-=======
-        <translation type="unfinished"></translation>
->>>>>>> weishuchang/clear_button
     </message>
 </context>
 <context>
